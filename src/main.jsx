@@ -17,23 +17,23 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        path: "/",
+        path: "/Blog_react_api",
         element: <Home />,
       },
       {
-        path: "/new",
+        path: "/Blog_react_api/new",
         element: <NewPosts />,
       },
       {
-        path: "/posts/:id",
+        path: "/Blog_react_api/posts/:id",
         element: <Post />
       },
       {
-        path: "/Adm",
+        path: "/Blog_react_api/Adm",
         element: <Adm />
       },
       {
-        path: "/posts/edit/:id",
+        path: "/Blog_react_api/posts/edit/:id",
         element: <EditPost />
       },
     ]

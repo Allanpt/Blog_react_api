@@ -35,7 +35,7 @@ function Home() {
                     <div className="post" key={post.id}>
                         <h2>{post.title}</h2>
                         <p>{post.body}</p>
-                        <Link to={`/posts/${post.id}`} >Ler mais</Link>
+                        <Link to={`/Blog_react_api/posts/${post.id}`} >Ler mais</Link>
                     </div>
                 ))
             )}

@@ -8,17 +8,17 @@ function Navbar() {
   return (
     <nav className="navbar">
         <h2>
-            <Link to={"/"}>Blog</Link>
+            <Link to={"/Blog_react_api"}>Blog</Link>
         </h2>
         <ul id="links-nav">
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/Blog_react_api"}>Home</Link>
           </li>
           <li>
-            <Link to={'/new'} className="new-btn">Novo Post</Link>
+            <Link to={'/Blog_react_api/new'} className="new-btn">Novo Post</Link>
           </li>
           <li>
-            <Link to={'/adm'} >Gerenciar</Link>
+            <Link to={'/Blog_react_api/adm'} >Gerenciar</Link>
           </li>
         </ul>
     </nav>
