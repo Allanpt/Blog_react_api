@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar">
         <h2>
-            <Link to={"/"}>Repositórios</Link>
+            <Link to={"/"}>Blog</Link>
         </h2>
         <ul id="links-nav">
           <li>
