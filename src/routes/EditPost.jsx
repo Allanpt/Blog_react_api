@@ -35,7 +35,7 @@ const EditPost = () => {
         await blogFetch.put(`/posts/${id}`, {
           body: post,
         })
-        navigate('/')
+        navigate('/Blog_react_api')
       }
 
     useEffect(() => {

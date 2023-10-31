@@ -20,7 +20,7 @@ function NewPosts() {
     await blogFetch.post('/posts', {
       body: post,
     })
-    navigate('/')
+    navigate('/Blog_react_api')
   }
 
   return (
