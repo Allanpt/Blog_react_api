@@ -1,0 +1,21 @@
+#adm .actions{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+#adm .actions .edit-btn{
+    background-color: rgb(19, 187, 131);
+}
+#adm .actions .delete-btn{
+    background-color: rgb(220, 20, 60);
+}
+#adm .actions .btn{
+    color: white;
+    font-weight: bold;
+}
+#adm .actions .edit-btn:hover{
+    background-color: rgb(19, 187, 131, 0.6);
+}
+#adm .actions .delete-btn:hover{
+    background-color: rgb(220, 20, 60, 0.6);
+}

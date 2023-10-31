@@ -1,0 +1,18 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.btn{
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover{
+    color: white;
+    background-color: #140D0D;
+}

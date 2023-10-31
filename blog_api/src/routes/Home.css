@@ -1,0 +1,28 @@
+.post{
+    display: block;
+    margin: 30px 0;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+    z-index: 0;
+    transition: 0.25s;
+}
+#home h1{
+    text-align: center;
+}
+#home p{
+    padding: 15px 0;
+}
+#home .header{
+    display: flex;
+    justify-content: space-between;
+}
+#home .post:hover{
+    border: 1px solid #140D0D;
+    color: #140D0D;
+    background-color: white;
+}
+#home .post:hover > a{
+    color: #140D0D;
+}
+
